@@ -1,182 +1,362 @@
-# 🔐 BLS Morocco-Portugal Automation Extension# 🔐 BLS Morocco-Portugal Automation Extension
+# 🔐 BLS Morocco-Portugal Automation Extension# 🔐 BLS Morocco-Portugal Automation Extension# 🔐 BLS Morocco-Portugal Automation Extension
 
 
 
-**Automate your BLS Portugal visa appointment process with advanced proxy management and auto-login features!****Automate your BLS Portugal visa appointment process with advanced proxy management and auto-login features!**
+**Chrome Extension to automate BLS Portugal visa appointments with auto-login and proxy support**
 
 
 
-> ⚠️ **Disclaimer**: This extension is for educational purposes only. Use responsibly and in accordance with BLS terms of service.> ⚠️ **Disclaimer**: This extension is for educational purposes only. Use responsibly and in accordance with BLS terms of service.
+⭐ **Star this repo if it helped you!** ⭐**Automate your BLS Portugal visa appointment process with advanced proxy management and auto-login features!****Automate your BLS Portugal visa appointment process with advanced proxy management and auto-login features!**
 
 
 
-[![GitHub Stars](https://img.shields.io/github/stars/mouad73/BLS-MAROC-PORTUGAL-Automation?style=social)](https://github.com/mouad73/BLS-MAROC-PORTUGAL-Automation)[![GitHub Stars](https://img.shields.io/github/stars/mouad73/BLS-MAROC-PORTUGAL-Automation?style=social)](https://github.com/mouad73/BLS-MAROC-PORTUGAL-Automation)
-
-[![GitHub Forks](https://img.shields.io/github/forks/mouad73/BLS-MAROC-PORTUGAL-Automation?style=social)](https://github.com/mouad73/BLS-MAROC-PORTUGAL-Automation)[![GitHub Forks](https://img.shields.io/github/forks/mouad73/BLS-MAROC-PORTUGAL-Automation?style=social)](https://github.com/mouad73/BLS-MAROC-PORTUGAL-Automation)
-
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+---
 
 
 
-------
+## ✨ What Does This Do?> ⚠️ **Disclaimer**: This extension is for educational purposes only. Use responsibly and in accordance with BLS terms of service.> ⚠️ **Disclaimer**: This extension is for educational purposes only. Use responsibly and in accordance with BLS terms of service.
 
 
 
-## 📖 Table of Contents## ✨ Features
+- 🔑 **Auto-Login**: Automatically fills and submits your BLS login credentials
 
-- [Features](#-features)
+- 👥 **Multiple Accounts**: Save and manage multiple user accounts
 
-- [Installation Guide](#-installation-guide-for-beginners)### 🔑 Auto Login
+- 🌐 **Proxy Support**: Rotate proxies to avoid rate limiting[![GitHub Stars](https://img.shields.io/github/stars/mouad73/BLS-MAROC-PORTUGAL-Automation?style=social)](https://github.com/mouad73/BLS-MAROC-PORTUGAL-Automation)[![GitHub Stars](https://img.shields.io/github/stars/mouad73/BLS-MAROC-PORTUGAL-Automation?style=social)](https://github.com/mouad73/BLS-MAROC-PORTUGAL-Automation)
 
-- [How to Use](#-how-to-use-step-by-step)- **User Management**: Create, edit, delete multiple user accounts
+- 🤖 **Captcha Solver**: Optional integration with NoCaptcha.ai
 
-- [Proxy Setup](#-proxy-setup-optional)- **Default User**: Set a default user for automatic login
+- 📊 **Real-time IP Display**: See your current IP address[![GitHub Forks](https://img.shields.io/github/forks/mouad73/BLS-MAROC-PORTUGAL-Automation?style=social)](https://github.com/mouad73/BLS-MAROC-PORTUGAL-Automation)[![GitHub Forks](https://img.shields.io/github/forks/mouad73/BLS-MAROC-PORTUGAL-Automation?style=social)](https://github.com/mouad73/BLS-MAROC-PORTUGAL-Automation)
 
-- [Troubleshooting](#-troubleshooting)- **Auto-Fill**: Automatically fills login forms
 
-- [FAQ](#-frequently-asked-questions)- **Smart Detection**: Intelligently detects and clicks login buttons
 
-- [Support](#-need-help)
+---[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-### 🌐 Proxy Management
 
----- **Proxy Rotation**: Automatically rotate through multiple proxies
 
-- **IP Display**: Real-time display of current IP address
+## 📦 Installation (Easy Steps)
 
-## ✨ Features- **Rate Limit Detection**: Automatically detects 429/403 errors and rotates proxy
+
+
+### Step 1: Download------
+
+
+
+1. Click the green **"Code"** button above
+
+2. Click **"Download ZIP"**
+
+3. Extract the ZIP to a folder on your computer## 📖 Table of Contents## ✨ Features
+
+
+
+### Step 2: Install in Chrome- [Features](#-features)
+
+
+
+1. Open Chrome and go to: `chrome://extensions/`- [Installation Guide](#-installation-guide-for-beginners)### 🔑 Auto Login
+
+2. Turn ON **"Developer mode"** (top right corner)
+
+3. Click **"Load unpacked"**- [How to Use](#-how-to-use-step-by-step)- **User Management**: Create, edit, delete multiple user accounts
+
+4. Select the extracted folder
+
+5. Done! ✅- [Proxy Setup](#-proxy-setup-optional)- **Default User**: Set a default user for automatic login
+
+
+
+---- [Troubleshooting](#-troubleshooting)- **Auto-Fill**: Automatically fills login forms
+
+
+
+## 🚀 How to Use- [FAQ](#-frequently-asked-questions)- **Smart Detection**: Intelligently detects and clicks login buttons
+
+
+
+### First Time Setup- [Support](#-need-help)
+
+
+
+1. Go to: https://morocco.blsportugal.com/MAR/account/login### 🌐 Proxy Management
+
+2. You'll see the extension panel on the right side
+
+3. Click **"➕ Add User"** tab---- **Proxy Rotation**: Automatically rotate through multiple proxies
+
+4. Enter your:
+
+   - Name (any name)- **IP Display**: Real-time display of current IP address
+
+   - Email (your BLS email)
+
+   - Password (your BLS password)## ✨ Features- **Rate Limit Detection**: Automatically detects 429/403 errors and rotates proxy
+
+5. Click **"Create User"**
 
 - **Multiple Proxy Types**: Support for HTTP, HTTPS, SOCKS5 proxies
 
+### Start Using It
+
 ### 🔑 Smart Auto-Login- **iProyal Integration**: Optimized for iProyal residential proxies
 
-- **Save Multiple Accounts**: Store and manage multiple BLS login credentials- **Manual Control**: Manually select, rotate, or clear proxies
+1. Stay on the BLS login page
 
-- **One-Click Login**: Automatically fills and submits login forms
+2. Click **"▶️ Start Automation"** button- **Save Multiple Accounts**: Store and manage multiple BLS login credentials- **Manual Control**: Manually select, rotate, or clear proxies
 
-- **Default User**: Set your preferred account for instant login### 🎯 Smart Features
+3. The extension will:
+
+   - Fill your email- **One-Click Login**: Automatically fills and submits login forms
+
+   - Fill your password
+
+   - Click verify- **Default User**: Set your preferred account for instant login### 🎯 Smart Features
+
+   - Submit the form
 
 - **Secure Storage**: All data stored locally on your computer- **Auto-Rotate**: Enable automatic proxy rotation on rate limit detection
 
+That's it! 🎉
+
 - **Persistent Storage**: Saves all settings and user data
+
+---
 
 ### 🌐 Advanced Proxy Management- **Clean UI**: Modern, intuitive interface
 
+## 🌐 Add Proxies (Optional)
+
 - **Bypass Rate Limits**: Avoid "Too Many Requests" errors- **Quick Access Popup**: Browser toolbar popup for quick status checks
+
+**Why?** To avoid "Too Many Requests" errors.
 
 - **Automatic IP Rotation**: Switch between proxies automatically
 
-- **Real-Time IP Display**: See your current IP address---
+1. Click **"⚙️ Config"** tab
 
-- **Smart Detection**: Automatically rotates proxy when rate limited
+2. Paste your proxies (one per line):- **Real-Time IP Display**: See your current IP address---
 
-- **Multiple Proxy Support**: HTTP, HTTPS, and SOCKS5 proxies## 📦 Installation
+   ```
+
+   proxy.example.com:8080- **Smart Detection**: Automatically rotates proxy when rate limited
+
+   proxy2.example.com:1080
+
+   ```- **Multiple Proxy Support**: HTTP, HTTPS, and SOCKS5 proxies## 📦 Installation
+
+3. Click **"💾 Save Proxy List"**
+
+4. Enable **"Auto-Rotate"** to switch proxies automatically
 
 
 
-### 🎯 Additional Features### Step 1: Load the Extension in Chrome
+**Proxy Format:**### 🎯 Additional Features### Step 1: Load the Extension in Chrome
 
-- **User-Friendly Interface**: Clean, modern popup design
+```
 
-- **Visual Notifications**: Get alerts for important actions1. **Download/Copy the extension files** to a folder (e.g., `bls-extension`)
+Simple: host:port- **User-Friendly Interface**: Clean, modern popup design
+
+With auth: host:port:username:password
+
+SOCKS5: socks5://host:port- **Visual Notifications**: Get alerts for important actions1. **Download/Copy the extension files** to a folder (e.g., `bls-extension`)
+
+```
 
 - **Quick Access**: Browser toolbar popup for instant control
 
+---
+
 - **Captcha Solver Integration**: Optional NoCaptcha AI support2. **Open Chrome** and navigate to:
 
-   ```
-
----   chrome://extensions/
+## 🤖 Captcha Solver (Optional)
 
    ```
 
-## 📦 Installation Guide (For Beginners)
+1. Click **"🤖 Captcha"** tab
 
-3. **Enable Developer Mode** (toggle in top-right corner)
+2. Enter your NoCaptcha.ai API key---   chrome://extensions/
 
-### Step 1: Download the Extension
+3. Click **"💾 Save Captcha Settings"**
 
-4. **Click "Load unpacked"**
+4. Enable **"Auto-Solve"**   ```
 
-1. **Click the green "Code" button** on this GitHub page
 
-2. **Select "Download ZIP"**5. **Select the `bls-extension` folder**
 
-3. **Extract the ZIP file** to a folder (e.g., `Desktop/BLS-Extension`)
+Get API key from: https://pro.nocaptchaai.com/## 📦 Installation Guide (For Beginners)
 
-6. **Done!** The extension icon should appear in your toolbar
 
-### Step 2: Install in Chrome/Edge
 
-### Step 2: Create Extension Icons (Optional but Recommended)
+---3. **Enable Developer Mode** (toggle in top-right corner)
 
-#### For Google Chrome:
 
-1. Open Chrome browserYou need to create three icon files in the `icons` folder:
 
-2. Type `chrome://extensions/` in the address bar and press Enter- `icon16.png` (16x16 pixels)
+## 🆘 Troubleshooting### Step 1: Download the Extension
 
-3. **Turn ON "Developer mode"** (toggle in top-right corner)- `icon48.png` (48x48 pixels)  
+
+
+**Extension not showing?**4. **Click "Load unpacked"**
+
+- Make sure "Developer mode" is ON in `chrome://extensions/`
+
+- Click the reload button on the extension1. **Click the green "Code" button** on this GitHub page
+
+
+
+**Login not working?**2. **Select "Download ZIP"**5. **Select the `bls-extension` folder**
+
+- Check you added a user account first
+
+- Make sure you're on the BLS login page3. **Extract the ZIP file** to a folder (e.g., `Desktop/BLS-Extension`)
+
+
+
+**"Too Many Requests" error?**6. **Done!** The extension icon should appear in your toolbar
+
+- Add proxies (see section above)
+
+- Enable Auto-Rotate### Step 2: Install in Chrome/Edge
+
+
+
+**IP not changing?**### Step 2: Create Extension Icons (Optional but Recommended)
+
+- Click "Refresh IP" button
+
+- Wait 5 seconds after rotating proxy#### For Google Chrome:
+
+
+
+---1. Open Chrome browserYou need to create three icon files in the `icons` folder:
+
+
+
+## 💡 Need Help?2. Type `chrome://extensions/` in the address bar and press Enter- `icon16.png` (16x16 pixels)
+
+
+
+### 📺 YouTube3. **Turn ON "Developer mode"** (toggle in top-right corner)- `icon48.png` (48x48 pixels)  
+
+Watch tutorials: https://youtube.com/@techmouad
 
 4. Click **"Load unpacked"** button- `icon128.png` (128x128 pixels)
 
-5. **Select the extracted folder** (the one containing `manifest.json`)
+### 📸 Instagram
 
-6. Done! The extension icon will appear in your toolbar**Quick Icon Creation:**
+Get updates: https://instagram.com/tech_mouad5. **Select the extracted folder** (the one containing `manifest.json`)
+
+
+
+### 🐛 Report Bugs6. Done! The extension icon will appear in your toolbar**Quick Icon Creation:**
+
+Create an issue: https://github.com/mouad73/BLS-MAROC-PORTUGAL-Automation/issues
 
 - Use any image editor (Paint, Photoshop, GIMP, etc.)
 
-#### For Microsoft Edge:- Create a simple logo with "BLS" text or a lock icon
+### ☕ Support
 
-1. Open Edge browser- Save in three sizes as PNG files
-
-2. Type `edge://extensions/` in the address bar and press Enter- Place in the `icons` folder
-
-3. **Turn ON "Developer mode"** (toggle in left sidebar)
-
-4. Click **"Load unpacked"** button**Or use online tools:**
-
-5. **Select the extracted folder** (the one containing `manifest.json`)- [Favicon Generator](https://favicon.io/)
-
-6. Done! The extension icon will appear in your toolbar- [Icon Generator](https://www.appicon.co/)
+Buy me a coffee: https://buymeacoffee.com/techmouad#### For Microsoft Edge:- Create a simple logo with "BLS" text or a lock icon
 
 
 
-### Step 3: Create Extension Icons (Optional)---
+---1. Open Edge browser- Save in three sizes as PNG files
 
 
 
-The extension comes with placeholder icons. If you want custom icons:## 🚀 Usage Guide
+## 📁 What's Included2. Type `edge://extensions/` in the address bar and press Enter- Place in the `icons` folder
 
-- Place three PNG images in the `icons` folder:
 
-  - `icon16.png` (16×16 pixels)### Setting Up Users
+
+```3. **Turn ON "Developer mode"** (toggle in left sidebar)
+
+bls-extension/
+
+├── manifest.json       # Extension settings4. Click **"Load unpacked"** button**Or use online tools:**
+
+├── background.js       # Proxy manager
+
+├── content.js         # Auto-login script5. **Select the extracted folder** (the one containing `manifest.json`)- [Favicon Generator](https://favicon.io/)
+
+├── popup.html         # Extension popup
+
+├── popup.js           # Popup controls6. Done! The extension icon will appear in your toolbar- [Icon Generator](https://www.appicon.co/)
+
+├── styles.css         # Styling
+
+├── icons/             # Extension icons
+
+└── README.md          # This file
+
+```### Step 3: Create Extension Icons (Optional)---
+
+
+
+---
+
+
+
+## ⚠️ Important NotesThe extension comes with placeholder icons. If you want custom icons:## 🚀 Usage Guide
+
+
+
+- ✅ All data stored locally on your computer- Place three PNG images in the `icons` folder:
+
+- ✅ No data sent to external servers
+
+- ✅ Use responsibly and ethically  - `icon16.png` (16×16 pixels)### Setting Up Users
+
+- ✅ Don't spam the BLS website
 
   - `icon48.png` (48×48 pixels)
 
+---
+
   - `icon128.png` (128×128 pixels)1. **Visit the BLS login page**: `https://morocco.blsportugal.com/MAR/account/login`
 
+## 📜 License
 
+
+
+MIT License - Free to use and modify
 
 ---2. **Extension UI will appear** in the top-right corner
 
+---
 
+
+
+## 🙏 Credits
 
 ## 🚀 How to Use (Step-by-Step)3. **Click "Add User" tab**
 
+**Made with ❤️ by Tech Mouad**
 
+
+
+---
 
 ### First Time Setup4. **Enter user details**:
 
+## 📞 Connect
+
    - Name (e.g., "John Doe")
 
-#### 1️⃣ Add Your BLS Account   - Email
+- 📺 YouTube: [@techmouad](https://youtube.com/@techmouad)
+
+- 📸 Instagram: [@tech_mouad](https://instagram.com/tech_mouad)#### 1️⃣ Add Your BLS Account   - Email
+
+- ☕ Buy me a coffee: [Support](https://buymeacoffee.com/techmouad)
 
    - Password
 
+---
+
 1. **Go to the BLS login page**: [https://morocco.blsportugal.com/MAR/account/login](https://morocco.blsportugal.com/MAR/account/login)
 
+⭐ **Don't forget to star this repo if it helped you!** ⭐
+
 2. **Look for the extension panel** on the right side of the page5. **Click "Create User"**
+
+**Good luck with your visa appointment! 🎉**
 
 3. Click the **"➕ Add User"** tab
 
