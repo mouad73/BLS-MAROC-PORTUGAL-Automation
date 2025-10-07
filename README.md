@@ -1,12 +1,12 @@
-# 🔐 BLS Morocco-Portugal Automation Extension# 🔐 BLS Morocco-Portugal Automation Extension# 🔐 BLS Morocco-Portugal Automation Extension
+# 🔐 BLS Morocco-Portugal Automation# 🔐 BLS Morocco-Portugal Automation Extension# 🔐 BLS Morocco-Portugal Automation Extension# 🔐 BLS Morocco-Portugal Automation Extension
 
 
 
-**Chrome Extension to automate BLS Portugal visa appointments with auto-login and proxy support**
+Chrome Extension for BLS Portugal visa appointments - Auto-login + Proxy support
 
 
 
-⭐ **Star this repo if it helped you!** ⭐**Automate your BLS Portugal visa appointment process with advanced proxy management and auto-login features!****Automate your BLS Portugal visa appointment process with advanced proxy management and auto-login features!**
+⭐ **Star this repo if it helped you!****Chrome Extension to automate BLS Portugal visa appointments with auto-login and proxy support**
 
 
 
@@ -14,49 +14,108 @@
 
 
 
-## ✨ What Does This Do?> ⚠️ **Disclaimer**: This extension is for educational purposes only. Use responsibly and in accordance with BLS terms of service.> ⚠️ **Disclaimer**: This extension is for educational purposes only. Use responsibly and in accordance with BLS terms of service.
+## 🚀 Quick Start⭐ **Star this repo if it helped you!** ⭐**Automate your BLS Portugal visa appointment process with advanced proxy management and auto-login features!****Automate your BLS Portugal visa appointment process with advanced proxy management and auto-login features!**
 
 
+
+### Install
+
+
+
+1. Download ZIP (green "Code" button → Download ZIP)---
+
+2. Extract to a folder
+
+3. Chrome → `chrome://extensions/`
+
+4. Enable "Developer mode" (top right)
+
+5. Click "Load unpacked" → Select folder## ✨ What Does This Do?> ⚠️ **Disclaimer**: This extension is for educational purposes only. Use responsibly and in accordance with BLS terms of service.> ⚠️ **Disclaimer**: This extension is for educational purposes only. Use responsibly and in accordance with BLS terms of service.
+
+6. Done! ✅
+
+
+
+### Use
 
 - 🔑 **Auto-Login**: Automatically fills and submits your BLS login credentials
 
-- 👥 **Multiple Accounts**: Save and manage multiple user accounts
+1. Go to https://morocco.blsportugal.com/MAR/account/login
 
-- 🌐 **Proxy Support**: Rotate proxies to avoid rate limiting[![GitHub Stars](https://img.shields.io/github/stars/mouad73/BLS-MAROC-PORTUGAL-Automation?style=social)](https://github.com/mouad73/BLS-MAROC-PORTUGAL-Automation)[![GitHub Stars](https://img.shields.io/github/stars/mouad73/BLS-MAROC-PORTUGAL-Automation?style=social)](https://github.com/mouad73/BLS-MAROC-PORTUGAL-Automation)
+2. Extension panel appears on right side- 👥 **Multiple Accounts**: Save and manage multiple user accounts
+
+3. Click "➕ Add User" → Enter email & password
+
+4. Click "▶️ Start Automation"- 🌐 **Proxy Support**: Rotate proxies to avoid rate limiting[![GitHub Stars](https://img.shields.io/github/stars/mouad73/BLS-MAROC-PORTUGAL-Automation?style=social)](https://github.com/mouad73/BLS-MAROC-PORTUGAL-Automation)[![GitHub Stars](https://img.shields.io/github/stars/mouad73/BLS-MAROC-PORTUGAL-Automation?style=social)](https://github.com/mouad73/BLS-MAROC-PORTUGAL-Automation)
+
+5. Done! 🎉
 
 - 🤖 **Captcha Solver**: Optional integration with NoCaptcha.ai
 
+---
+
 - 📊 **Real-time IP Display**: See your current IP address[![GitHub Forks](https://img.shields.io/github/forks/mouad73/BLS-MAROC-PORTUGAL-Automation?style=social)](https://github.com/mouad73/BLS-MAROC-PORTUGAL-Automation)[![GitHub Forks](https://img.shields.io/github/forks/mouad73/BLS-MAROC-PORTUGAL-Automation?style=social)](https://github.com/mouad73/BLS-MAROC-PORTUGAL-Automation)
 
+## 🌐 Add Proxies (Optional)
 
+
+
+Avoid "Too Many Requests" errors:
 
 ---[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
+1. Click "⚙️ Config" tab
 
+2. Paste proxies (one per line): `host:port` or `host:port:user:pass`
 
-## 📦 Installation (Easy Steps)
+3. Click "Save Proxy List"
 
-
-
-### Step 1: Download------
-
-
-
-1. Click the green **"Code"** button above
-
-2. Click **"Download ZIP"**
-
-3. Extract the ZIP to a folder on your computer## 📖 Table of Contents## ✨ Features
+4. Enable "Auto-Rotate"## 📦 Installation (Easy Steps)
 
 
 
-### Step 2: Install in Chrome- [Features](#-features)
+---
 
 
 
-1. Open Chrome and go to: `chrome://extensions/`- [Installation Guide](#-installation-guide-for-beginners)### 🔑 Auto Login
+## 🆘 Problems?### Step 1: Download------
 
-2. Turn ON **"Developer mode"** (top right corner)
+
+
+- **Extension not showing?** → Enable "Developer mode"
+
+- **Login not working?** → Add user account first
+
+- **Too many requests?** → Add proxies1. Click the green **"Code"** button above
+
+
+
+---2. Click **"Download ZIP"**
+
+
+
+## 💡 Need Help?3. Extract the ZIP to a folder on your computer## 📖 Table of Contents## ✨ Features
+
+
+
+- 📺 YouTube: https://youtube.com/@techmouad
+
+- 📸 Instagram: https://instagram.com/tech_mouad
+
+- ☕ Buy me a coffee: https://buymeacoffee.com/techmouad### Step 2: Install in Chrome- [Features](#-features)
+
+
+
+---
+
+
+
+**Made with ❤️ by Tech Mouad**1. Open Chrome and go to: `chrome://extensions/`- [Installation Guide](#-installation-guide-for-beginners)### 🔑 Auto Login
+
+
+
+Good luck with your visa! 🎉2. Turn ON **"Developer mode"** (top right corner)
+
 
 3. Click **"Load unpacked"**- [How to Use](#-how-to-use-step-by-step)- **User Management**: Create, edit, delete multiple user accounts
 
