@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLS Proxy Manager</title>
+    <style>
+        body {
+            width: 320px;
+            min-height: 250px;
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            font-size: 12px;
+        }
+        
+        .container {
+            background: white;
+        }
+        
+        h2 {
+            margin: 0;
+            font-size: 14px;
+            color: white;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 12px;
+            cursor: move;
+        }
+        
+        .content {
+            padding: 12px;
+        }
+        
+        .control-group {
+            margin-bottom: 12px;
+        }
+        
+        .control-row {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 8px;
+        }
+        
+        .status-section {
+            background: #f8f9fa;
+            padding: 10px;
+            border-radius: 4px;
+            margin-bottom: 10px;
+            border-left: 3px solid #007bff;
+        }
+        
+        .status-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 6px;
+        }
+        
+        .status-row:last-child {
+            margin-bottom: 0;
+        }
+        
+        .label {
+            font-size: 10px;
+            color: #6c757d;
+            text-transform: uppercase;
+            letter-spacing: 0.3px;
+        }
+        
+        .value {
+            font-weight: bold;
+            font-size: 11px;
+            color: #007bff;
+        }
+        
+        .value.success {
+            color: #28a745;
+        }
+        
+        .value.error {
+            color: #dc3545;
+        }
+        
+        .btn {
+            padding: 8px 12px;
+            border: none;
+            border-radius: 4px;
+            font-size: 11px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 4px;
+            flex: 1;
+        }
+        
+        .btn:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+        }
+        
+        .btn:active {
+            transform: translateY(0);
+        }
+        
+        .btn-full {
+            width: 100%;
+        }
+        
+        .btn-primary {
+            background: #007bff;
+            color: white;
+        }
+        
+        .btn-success {
+            background: #28a745;
+            color: white;
+        }
+        
+        .btn-warning {
+            background: #ffc107;
+            color: #000;
+        }
+        
+        .btn-danger {
+            background: #dc3545;
+            color: white;
+        }
+        
+        .btn-secondary {
+            background: #6c757d;
+            color: white;
+        }
+        
+        .proxy-list {
+            max-height: 150px;
+            overflow-y: auto;
+            margin-bottom: 15px;
+        }
+        
+        .proxy-item {
+            background: #f8f9fa;
+            padding: 8px;
+            border-radius: 4px;
+            margin-bottom: 5px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 11px;
+        }
+        
+        .proxy-item.active {
+            background: #d4edda;
+            border-left: 3px solid #28a745;
+        }
+        
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-size: 9px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        
+        .badge-active {
+            background: #28a745;
+            color: white;
+        }
+        
+        .badge-running {
+            background: #28a745;
+            color: white;
+            animation: pulse 2s infinite;
+        }
+        
+        .badge-stopped {
+            background: #dc3545;
+            color: white;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.6; }
+        }
+        
+        .badge-off {
+            background: #6c757d;
+            color: white;
+        }
+        
+        .divider {
+            height: 1px;
+            background: #dee2e6;
+            margin: 10px 0;
+        }
+        
+        .proxy-list {
+            max-height: 120px;
+            overflow-y: auto;
+            margin-bottom: 8px;
+            font-size: 10px;
+        }
+        
+        .proxy-item {
+            background: #f8f9fa;
+            padding: 6px;
+            border-radius: 3px;
+            margin-bottom: 4px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .proxy-item.active {
+            background: #d4edda;
+            border-left: 3px solid #28a745;
+        }
+        
+        .info-text {
+            font-size: 10px;
+            color: #6c757d;
+            text-align: center;
+            padding: 8px;
+            background: #f8f9fa;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2 id="dragHeader">🤖 BLS Manager</h2>
+        
+        <div class="content">
+            <!-- Automation Control -->
+            <div class="control-group">
+                <div class="status-section" style="border-left-color: #28a745;">
+                    <div class="status-row">
+                        <span class="label">Status</span>
+                        <span class="badge" id="automationBadge">STOPPED</span>
+                    </div>
+                </div>
+                
+                <div class="control-row">
+                    <button id="startAutomationBtn" class="btn btn-success">
+                        ▶️ Start
+                    </button>
+                    <button id="stopAutomationBtn" class="btn btn-danger" style="display: none;">
+                        ⏸️ Stop
+                    </button>
+                </div>
+            </div>
+            
+            <div class="divider"></div>
+            
+            <!-- Proxy Status -->
+            <div class="control-group">
+                <div class="status-section">
+                    <div class="status-row">
+                        <span class="label">Current IP</span>
+                        <span class="value" id="currentIP" style="font-size: 10px;">-</span>
+                    </div>
+                    <div class="status-row">
+                        <span class="label">Proxy</span>
+                        <span class="value" id="proxyStatus" style="font-size: 10px;">None</span>
+                    </div>
+                </div>
+                
+                <div class="control-row">
+                    <button id="refreshIPBtn" class="btn btn-primary">
+                        🔄 Refresh
+                    </button>
+                    <button id="rotateProxyBtn" class="btn btn-success">
+                        ↻ Rotate
+                    </button>
+                </div>
+                
+                <button id="clearProxyBtn" class="btn btn-warning btn-full">
+                    ✖ Clear Proxy
+                </button>
+            </div>
+            
+            <div class="divider"></div>
+            
+            <!-- Proxy List -->
+            <div class="control-group">
+                <div class="label" style="margin-bottom: 6px; display: block;">Proxies:</div>
+                <div class="proxy-list" id="proxyList">
+                    <div class="info-text">
+                        No proxies configured
+                    </div>
+                </div>
+            </div>
+            
+            <div class="info-text">
+                💡 Visit BLS page for full UI
+            </div>
+        </div>
+    </div>
+    
+    <script src="popup.js"></script>
+</body>
+</html>

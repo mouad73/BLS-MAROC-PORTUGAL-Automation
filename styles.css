@@ -1,0 +1,312 @@
+/* BLS Extension Styles */
+
+.bls-ui-container {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 10000;
+    background: #fff;
+    border: 2px solid #007bff;
+    border-radius: 8px;
+    padding: 0;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    font-size: 12px;
+    width: 380px;
+    max-height: 600px;
+    overflow: hidden;
+}
+
+.bls-ui-header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 15px;
+    border-radius: 6px 6px 0 0;
+    cursor: move;
+    position: relative;
+}
+
+.bls-ui-header h3 {
+    margin: 0;
+    font-size: 14px;
+}
+
+.bls-btn-icon {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background: rgba(255,255,255,0.2);
+    border: none;
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    transition: all 0.2s;
+}
+
+.bls-btn-icon:hover {
+    background: rgba(255,255,255,0.3);
+    transform: scale(1.1);
+}
+
+#uiContent {
+    padding: 15px;
+    max-height: 520px;
+    overflow-y: auto;
+}
+
+.bls-status-bar {
+    background: #f8f9fa;
+    padding: 12px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    border-left: 4px solid #007bff;
+}
+
+.bls-current-user {
+    background: #e3f2fd;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    border-left: 4px solid #007bff;
+    font-size: 11px;
+}
+
+.bls-tabs {
+    display: flex;
+    gap: 2px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #dee2e6;
+}
+
+.tab-btn {
+    background: #6c757d;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 11px;
+    border-radius: 4px 4px 0 0;
+    transition: all 0.2s;
+    flex: 1;
+    font-weight: 500;
+}
+
+.tab-btn:hover {
+    background: #5a6268;
+}
+
+.tab-btn.active {
+    background: #007bff;
+    font-weight: 600;
+}
+
+.tab-content {
+    margin-top: 10px;
+}
+
+.bls-btn {
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 11px;
+    font-weight: 600;
+    transition: all 0.2s;
+}
+
+.bls-btn:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.bls-btn:active {
+    transform: translateY(0);
+}
+
+.bls-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.bls-btn-primary {
+    background: #007bff;
+    color: white;
+}
+
+.bls-btn-success {
+    background: #28a745;
+    color: white;
+}
+
+.bls-btn-warning {
+    background: #ffc107;
+    color: #000;
+}
+
+.bls-btn-danger {
+    background: #dc3545;
+    color: white;
+}
+
+.bls-btn-secondary {
+    background: #6c757d;
+    color: white;
+}
+
+.bls-btn-sm {
+    padding: 4px 8px;
+    font-size: 10px;
+}
+
+.bls-btn-xs {
+    padding: 3px 6px;
+    font-size: 9px;
+}
+
+.bls-form-group {
+    margin-bottom: 10px;
+}
+
+.bls-form-group label {
+    display: block;
+    margin-bottom: 3px;
+    font-weight: bold;
+    font-size: 11px;
+    color: #333;
+}
+
+.bls-input {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 11px;
+    font-family: inherit;
+}
+
+.bls-input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 0 2px rgba(0,123,255,0.1);
+}
+
+.bls-textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 11px;
+    font-family: 'Courier New', monospace;
+    resize: vertical;
+}
+
+.bls-textarea:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 0 2px rgba(0,123,255,0.1);
+}
+
+.bls-user-item {
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    padding: 8px;
+    margin-bottom: 8px;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.2s;
+}
+
+.bls-user-item:hover {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.bls-user-item.default {
+    background: #e3f2fd;
+    border-color: #007bff;
+}
+
+.bls-badge-default {
+    display: inline-block;
+    background: #007bff;
+    color: white;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-size: 9px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.bls-modal {
+    background: #f8f9fa;
+    padding: 12px;
+    border-radius: 4px;
+    margin-top: 10px;
+    border: 1px solid #dee2e6;
+}
+
+/* Scrollbar Styling */
+#uiContent::-webkit-scrollbar,
+.tab-content::-webkit-scrollbar {
+    width: 6px;
+}
+
+#uiContent::-webkit-scrollbar-track,
+.tab-content::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 3px;
+}
+
+#uiContent::-webkit-scrollbar-thumb,
+.tab-content::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 3px;
+}
+
+#uiContent::-webkit-scrollbar-thumb:hover,
+.tab-content::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* Code styling */
+code {
+    background: #f4f4f4;
+    padding: 2px 4px;
+    border-radius: 3px;
+    font-family: 'Courier New', monospace;
+    font-size: 10px;
+    color: #e83e8c;
+}
+
+/* Link styling */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.bls-ui-container {
+    animation: fadeIn 0.3s ease-out;
+}
